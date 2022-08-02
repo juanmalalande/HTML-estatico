@@ -1,6 +1,5 @@
 nav {
-    margin: 20px;
-    padding: 5px;
+    padding: 5px 15px 5px 15px;
     background-color: midnightblue;
     height: 60px;
 }
@@ -22,6 +21,11 @@ nav .row {
     align-items: center;
 }
 
+nav .row .logos {
+    width: 35px;
+    height: 35px;
+}
+
 nav a {
     text-decoration: none;
 }
@@ -34,18 +38,24 @@ header {
 }
 
 header img {
-   width: 900px;
-   height: auto;
+   width: -webkit-fill-available;
+   height: 380px;
+   border-radius: 5% 5% 0% 0%;
 }
 
 ul {
     list-style: none;
 }
 
+li p {
+    font-weight: bold;
+}
+
 header .row .jml {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    border: 2px solid gainsboro;
     margin-top: -80px;
     margin-left: 20px;
 } 
@@ -65,3 +75,59 @@ header .row .col-4 ul li {
     padding: 5px;
 }
 
+header button {
+    border: none;
+    border-radius: 10%;
+    height: 35px;
+}
+
+header .interes{
+    border: none;
+    border-radius: 10%;
+    height: 35px;
+    background-color: blue;
+    color: white;
+}
+
+section {
+    border: 2px solid gainsboro;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px 20px 0px 20px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+    background-color: midnightblue;
+    color: white;
+}
+
+#progressbar {
+    background-color: whitesmoke;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+  }
+  
+  #progressbar>#ingles {
+    background-color: green;
+    width: 90%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+  #progressbar>#frontend {
+    background-color: green;
+    width: 70%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+  #progressbar>#adobe {
+    background-color: green;
+    width: 80%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
